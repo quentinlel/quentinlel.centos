@@ -1,0 +1,5 @@
+---
+# tasks file for centos
+- name: Installation httpd
+  yum: name=httpd state=latest
+...
